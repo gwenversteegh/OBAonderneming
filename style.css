@@ -54,14 +54,16 @@ z-index: 1;
 
 header div:first-of-type {
 right: 0.5em;
-top: 0.5em;
-height: 25vh;
+top: 0.1em;
+height: 45vw;
+max-height: 325px;
 }
 
 header div:nth-of-type(2) {
 left: 0.5em;
-top: 12.5em;
-height: 25vh;
+top: 11em;
+height: 45vw;
+max-height: 325px;
 }
 
 header > div:nth-of-type(3)  {
@@ -89,8 +91,8 @@ header h1, h2 {
     opacity: 100%; 
     font-family:avenir;
     font-weight: 9px;
-    font-size: 10vw;
-    max-height:25vh;
+    font-size: 10vmin;
+    max-height:10vh;
 }
 
 header h1 {
@@ -98,7 +100,7 @@ header h1 {
     position:absolute;
     right: 8vw;
     top: 5px;
-    margin-left: 40vw;
+    margin-left: 50vw;
 
 
 }
@@ -109,6 +111,7 @@ header h2 {
     left: 7.5vw;
     top: 190px;
     margin-right:50vw;
+    max-width: 400px;
     
 
 
@@ -118,7 +121,6 @@ header img {
     width: 100vw;
     max-width: 500px;
     height: 40vh;
-    /* position: absolute; */
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -178,7 +180,7 @@ main .container {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     overflow:hidden;
 }
