@@ -10,7 +10,7 @@ export function render(data) {
     const html = `
                 <article>
                 <h2>${
-                    item.authors ? item.authors[0] : "Geen samenvatting"
+                    item.authors ? item.authors[0] : "Geen author"
                   }</h2>
                   <p>${
                     item.summaries ? item.summaries[0] : "Geen samenvatting"
