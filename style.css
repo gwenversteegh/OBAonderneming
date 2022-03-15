@@ -94,3 +94,87 @@ header img {
     position: absolute;
     bottom: 3em;
 }
+
+
+/* --------------------------------------------------- main ----------------------------------------------------- */
+
+main h3, h4 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 2.5em;
+    padding-left: 0.2em;
+    padding-right: 0.5em;
+    color: white;
+    opacity: 100%; 
+    font-family:avenir;
+    font-size: 30px;
+    background-color: hsl(0, 0%, 0%, 0.75) ;
+
+}
+
+main > img:first-of-type, img:nth-of-type(2) {
+height: 17.5vh;
+width: 100%;
+margin-top: 1.5em;
+opacity: 0.8;
+}
+
+main article {
+    margin: 0.3em;
+
+    
+}
+
+main article img{
+    width: 45vw;
+    height: 40vh;
+    max-width: 45vw;
+}
+
+main article h2 {
+    position: absolute;
+    padding: 0.2em;
+    color:black;
+    font-size: 4vw;
+    width: 50vw;
+    background-color: rgba(255, 255, 255, 0.9) ;
+
+}
+
+
+main .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow:hidden;
+}
+
+
+main .container article p {
+    opacity: 0;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    position: absolute;
+    font-size: 4vw;
+    width: 45vw;
+    height: 40vh;
+    overflow:hidden;
+    cursor: pointer;
+    
+
+
+}
+
+main .container article p:hover {
+    opacity: 1;
+    width: 45vw;
+    position: absolute;
+    font-family:avenir;
+    color:black;
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0.9) ;
+    overflow:scroll;
+}
