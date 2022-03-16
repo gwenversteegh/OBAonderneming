@@ -9,8 +9,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 @media (min-width: 840px)
@@ -32,7 +30,6 @@
 
 }
 
-
 header {
     background-image: url(img/background.jpeg);
     background-repeat:no-repeat;
@@ -45,25 +42,25 @@ header {
 
 
 header div {
-background-color: red;
-width: 5vmin;
-position:absolute;
-opacity: 100%;
-z-index: 1;
+    background-color: red;
+    width: 5vmin;
+    position:absolute;
+    opacity: 100%;
+    z-index: 1;
 }
 
 header div:first-of-type {
-right: 0.5em;
-top: 0.1em;
-height: 45vw;
-max-height: 325px;
+    right: 0.5em;
+    top: 0.1em;
+    height: 45vw;
+    max-height: 325px;
 }
 
 header div:nth-of-type(2) {
-left: 0.5em;
-top: 11em;
-height: 45vw;
-max-height: 325px;
+    left: 0.5em;
+    top: 11em;
+    height: 45vw;
+    max-height: 325px;
 }
 
 header > div:nth-of-type(3)  {
@@ -76,14 +73,13 @@ header > div:nth-of-type(3)  {
 }
 
 header  p {
-   position: absolute;
-   left: 45vw;
-   bottom: 1.25em;
+    position: absolute;
+    left: 45vw;
+    bottom: 1.25em;
     font-family:avenir;
     font-size: 35px;
     font-weight: 9px;
-    color: white;
-    
+    color: white; 
 }
 
 header h1, h2 {
@@ -101,8 +97,6 @@ header h1 {
     right: 8vw;
     top: 5px;
     margin-left: 50vw;
-
-
 }
 
 header h2 {
@@ -112,9 +106,6 @@ header h2 {
     top: 190px;
     margin-right:50vw;
     max-width: 400px;
-    
-
-
 }
 
 header img {
@@ -126,8 +117,6 @@ header img {
   margin-right: auto;
   margin-top: 55vh;
 }
-
-
 
 header input[type='text']{
     position:absolute;
@@ -146,7 +135,6 @@ header input[type='text']{
 /* --------------------------------------------------- main ----------------------------------------------------- */
 
 
-
 main h3, h4 {
     position: absolute;
     z-index: 1;
@@ -158,7 +146,6 @@ main h3, h4 {
     font-family:avenir;
     font-size: 30px;
     background-color: hsl(0, 0%, 0%, 0.75) ;
-
 }
 
 main section >  img:first-of-type, img:nth-of-type(2) {
@@ -186,9 +173,7 @@ main article h2 {
     font-size: 25px;
     width:200px;
     background-color: rgba(255, 255, 255, 0.9) ;
-
 }
-
 
 main .container {
     display: flex;
@@ -200,7 +185,6 @@ main .container {
     overflow:hidden;
 }
 
-
 main .container article p {
     opacity: 0;
     padding-top: 2em;
@@ -211,9 +195,6 @@ main .container article p {
     height: 40vh;
     overflow:hidden;
     cursor: pointer;
-    
-
-
 }
 
 main .container article p:hover {

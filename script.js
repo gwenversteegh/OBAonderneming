@@ -4,7 +4,7 @@ import {zoeken} from "./modules/search.js"
 import { showLoadingState } from "./modules/states.js"
 
 showLoadingState()
-zoeken ()
+zoeken()
 sectionInViewport()
 sectionInViewportBack()
 
