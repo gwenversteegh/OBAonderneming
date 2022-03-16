@@ -1,4 +1,6 @@
 import { render } from "./render.js"
+import { hideLoadingState, showErrorState } from "./states.js"
+
 
 // const cors = "https://cors-anywhere.herokuapp.com/"
 // const endpoint = "https://zoeken.oba.nl/api/v1/search/?q="
@@ -17,14 +19,18 @@ export function getData(url){
     .then((response) => {
       return response.json()
     })
+    
     .then((data) => {
-        console.log('data:')
-        console.log(data.results)
-        // hideLoadingState()
-        render(data)
-    })
-    .catch((err) => {
-        console.log('error')
-      console.log(err)
-    })
+      console.log('data:')
+      console.log(data.results)
+      hideLoadingState()
+      render(data)
+  })
+
+  .catch((err) => {
+    console.log('error')
+  console.log(err)
+  showErrorState(err)
+})
 }
+  

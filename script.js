@@ -1,9 +1,9 @@
 import { getData } from "./modules/getData.js"
 import { sectionInViewport, sectionInViewportBack  } from "./modules/scroll.js"
 import {zoeken} from "./modules/search.js"
+import { showLoadingState } from "./modules/states.js"
 
-
-
+showLoadingState()
 zoeken ()
 sectionInViewport()
 sectionInViewportBack()
