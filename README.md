@@ -10,22 +10,27 @@ Het is een single-page-website voor jonge ondernemers die zich meer willen inlez
 
 ### Searchbalk
 Voor de ondernemer die even snel een boek wilt zoeken of al weet welk boek hij wil, maar nog iets meer informatie nodig heeft, kan bovenin de pagina doormiddel van de zoekbalk zijn/haar boek zoeken. Wanneer er niks gezocht wordt, worden de ondernemingsboeken automatisch getoond.
+
 <img width="231" alt="Screenshot 2022-03-18 at 11 21 13" src="https://user-images.githubusercontent.com/70900763/158985642-1d997588-4b5c-4357-9507-daf1a430be06.png">
 
 ### Hover for information
 Wanneer je over de boeken hovert, of op de telefoon op een boek klikt, kun je meer informatie lezen over het boek. Een soort korte samenvatting.
+
 <img width="369" alt="Screenshot 2022-03-18 at 11 22 33" src="https://user-images.githubusercontent.com/70900763/158985790-ca38bb65-b4ff-483e-9a92-f62a9cd647ca.png">
 
 ### Loadingstate
 Wanneer het internet erg traag is zal er een loadingstate te zien zijn. Hierdoor weet de gebruiker dat ze nog eventjes moeten wachten, maar dat de boeken er wel aankomen.
+
 <img width="231" alt="Screenshot 2022-03-18 at 11 21 33" src="https://user-images.githubusercontent.com/70900763/158985706-3f7acf52-9b53-4b2e-8583-704e56dc7590.png">
 
 ### Errorstate
 Wanneer er iets mis gaat met het ophalen van de data zal er een errorstate te zien zijn. De gebruiker moet de pagina dan even herladen zodat de data opnieuw opgehaald wordt.
+
 <img width="231" alt="Screenshot 2022-03-18 at 11 21 26" src="https://user-images.githubusercontent.com/70900763/158985689-ef0c3890-e2d3-4807-9e60-698198b4ade1.png">
 
 
 ## Activity Diagram
+
 <img width="797" alt="Screenshot 2022-03-18 at 11 20 27" src="https://user-images.githubusercontent.com/70900763/158985508-a6f06fc2-8624-4b6e-af64-897fa0240da3.png">
 
 ## Hoe instaleer je het?
