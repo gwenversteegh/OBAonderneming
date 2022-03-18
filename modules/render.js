@@ -31,7 +31,7 @@ export function renderData2(data2) {
           `<li>
           <h6>${item.titles}</h6>
           <p>${item.summaries}</p>
-          <a href="${item.detailLink}">>  Open leerdocument</a> 
+          <a href="${item.detailLink}"> Lees meer </a> 
           </li>`)
 })
 }

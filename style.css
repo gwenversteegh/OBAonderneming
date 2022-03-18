@@ -252,3 +252,9 @@ main section:nth-of-type(2) li {
     border-color: red;
 
 }
+
+main section:nth-of-type(2) a {
+    font-family:avenir;
+    color:red;
+    padding: 0.5em;
+}
