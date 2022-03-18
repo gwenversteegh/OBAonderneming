@@ -40,5 +40,7 @@ Github kan lastig zijn om te gebruiken wanneer je niet weet hoe het werkt. Downl
 
 ## API informatie
 Er worden twee API's gebruikt. De eerste is voor de boeken en de 2e is voor leermaterialen.
+
 1.https://zoeken.oba.nl/api/v1/search/?q=%22voeding%22&refine=true&authorization=16c19e6083308c984c452600134989ba&sort=act_dt_asc&output=json
+
 2.http://obaliquid.staging.aquabrowser.nl/onderwijs/api/v1/search/?q=eigen%20onderneming+NOT+lom.lifecycle.contribute.publisher%3Dwikipedia&authorization=a57b7bbd1cde2f6fb7ce5b3f2d1d96e0&output=json
